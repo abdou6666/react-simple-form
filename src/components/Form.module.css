@@ -1,0 +1,34 @@
+.formConrtol{
+   display:flex;
+    justify-content: flex-start;
+   flex-direction: column;
+}
+.formConrtol Label{
+    font-size:20px;
+    font-weight: bold;
+    margin : 15px
+}
+.formConrtol input{
+    width: 80%;
+    height:30px;
+    margin : 0 15px;
+    
+}
+.card{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%  );
+}
+.btn{
+    height: 40px;
+    width:100px;
+    background-color:rgb(122, 60,40 );
+    border:none;
+    cursor: pointer;
+    margin:10px 15px;
+    color:#ccc;
+}
+.btn:hover{
+    filter:brightness(110%);
+}
